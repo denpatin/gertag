@@ -1,0 +1,54 @@
+$(	пунктуационный знак
+$,	запятая
+$.	окончание предложения
+ADJA	attributive adjective
+ADJD	adverbial or predicative adjective
+ADV	наречие
+APPO	послелог
+APPR	предлог
+APPRART	предлог с артиклем
+APZR	right part of circumposition
+ART	артикль
+CARD	cardinal number
+FM	иностранное слово
+ITJ	interjection
+KOKOM	comparative conjunction
+KON	coordinating conjunction
+KOUI	subordinating conjunction with 'zu' and infinitive
+KOUS	subordinating conjunction with sentence
+NE	proper noun
+NN	common noun
+PAV	pronominal adverb
+PDAT	attributive demonstrative pronoun
+PDS	substituting demonstrative pronoun
+PIAT	attributive indefinite pronoun
+PIDAT	attributive indefinite pronoun with a determiner
+PIS	substituting indefinite pronoun
+PPER	non-reflexive personal pronoun
+PPOSAT	attribute adding posessive pronoun
+PPOSS	substituting possessive pronoun
+PRELAT	attribute adding relative pronoun
+PRELS	substituting relative pronoun
+PRF	reflexive personal pronoun
+PTKA	particle associated with adverb or adjective
+PTKANT	answer particle
+PTKNEG	negation particle
+PTKVZ	particle part of separable verb
+PTKZU	'zu' before infinitive
+PWAT	attribute adding interrogative pronoun
+PWAV	adverbial interrogative or relative pronoun
+PWS	substituting interrogative pronoun
+TRUNC	first member of compound noun
+VAFIN	auxilliary finite verb
+VAIMP	auxilliary imperative
+VAINF	auxilliary infinitive
+VAPP	auxilliary past participle
+VMFIN	modal finite verb
+VMINF	modal infinitive
+VMPP	modal past participle
+VVFIN	full finite verb
+VVIMP	full imperative
+VVINF	full infinitive
+VVIZU	full infinitive with "zu"
+VVPP	full past participle
+XY	non-word with special characters

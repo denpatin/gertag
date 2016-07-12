@@ -9,7 +9,7 @@ class GermanTaggerApp < Sinatra::Base
 
   set :server, :thin
 
-  jpath = '../'
+  jpath = 'stanford-postagger/'
   jmem = '-mx300m'
   jcl = "-classpath #{jpath}/stanford-postagger.jar:#{jpath}/lib/*"
   jtag = 'edu.stanford.nlp.tagger.maxent.MaxentTagger'
@@ -27,11 +27,11 @@ class GermanTaggerApp < Sinatra::Base
 
     jresult = %x( java #{jmem} #{jcl} #{jtag} #{jmod} #{jenc} -textFile #{input} #{jformat} )
 
-    input_array = jresult.scan /(.+)\t(.+)/
+    input_array = jresult.scan(/(.+)\t(.+)/)
     tags_hash = File.open('german_tagset.txt').read.scan(/(.+)\t(.+)/).to_h
-    
+
     @output_array = input_array.map { |dic| [ dic.first, tags_hash[dic.last] ] }
-    
+
     slim :result, layout: :main
   end
 end

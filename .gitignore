@@ -1,2 +1,3 @@
 inputs/*
 !inputs/.keep
+stanford-postagger/*

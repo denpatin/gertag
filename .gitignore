@@ -1,3 +1,4 @@
 inputs/*
 !inputs/.keep
 stanford-postagger/*
+.idea
